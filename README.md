@@ -6,7 +6,34 @@
 > **Stack:** FastAPI (Python) + Next.js 14 (React/TypeScript) + Neo4j + PostgreSQL + Redis + Kafka + Prometheus + Jaeger
 
 ---
+Overview
+<img width="1366" height="646" alt="image" src="https://github.com/user-attachments/assets/5beed172-ee63-4b62-b7aa-b3b42ee5c18f" />
 
+
+Agents
+<img width="1365" height="647" alt="image" src="https://github.com/user-attachments/assets/267c350e-a1c0-4ebf-91fa-2e72c2527826" />
+
+
+Swarm
+<img width="1364" height="646" alt="image" src="https://github.com/user-attachments/assets/4ba150d4-6648-4ae1-9b59-51575564ee19" />
+
+
+Analytics
+
+<img width="1366" height="640" alt="image" src="https://github.com/user-attachments/assets/5ee1c664-e9c9-4c88-b6af-da467021d8f2" />
+
+Monitoring
+<img width="1356" height="644" alt="image" src="https://github.com/user-attachments/assets/5c9996f8-caac-499b-925d-9467dccc2fe8" />
+
+
+Self-Healing
+<img width="1361" height="645" alt="image" src="https://github.com/user-attachments/assets/132dc235-c095-429a-a38e-b5f7c9cb7e6f" />
+
+
+Settings
+<img width="1359" height="647" alt="image" src="https://github.com/user-attachments/assets/fa6daaf5-f3e8-4210-bd54-2cc91483d85b" />
+
+---
 ## Table of Contents
 
 1. [What is PAIOS?](#what-is-paios)
