@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: paios-frontend
+  namespace: paios
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: paios-frontend
+  template:
+    metadata:
+      labels:
+        app: paios-frontend
+    spec:
+      containers:
+      - name: frontend
+        image: paios/frontend:latest
+        ports:
+        - containerPort: 3000
+        resources:
+          requests:
+            memory: "128Mi"
+            cpu: "100m"
+          limits:
+            memory: "256Mi"
+            cpu: "250m"

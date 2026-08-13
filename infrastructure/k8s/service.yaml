@@ -1,0 +1,26 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: paios-backend
+  namespace: paios
+spec:
+  selector:
+    app: paios-backend
+  ports:
+  - port: 8000
+    targetPort: 8000
+  type: ClusterIP
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: paios-frontend
+  namespace: paios
+spec:
+  selector:
+    app: paios-frontend
+  ports:
+  - port: 3000
+    targetPort: 3000
+  type: ClusterIP
